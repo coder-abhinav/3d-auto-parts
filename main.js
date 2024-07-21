@@ -36,9 +36,9 @@ labelRenderer.domElement.style.top = "0px";
 
 document.body.appendChild(labelRenderer.domElement);
 
-let allenHead = AllenBolt();
+let hexBolt = HexBolt();
 
-boltGroup.add(allenHead);
+boltGroup.add(hexBolt);
 
 scene.add(boltGroup);
 
