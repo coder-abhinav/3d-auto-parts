@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "vite --port 6969",
-    "build": "vite build",
-    "deploy": "npm run build && firebase deploy --only hosting"
+    "build": "vite build"
   }
 }

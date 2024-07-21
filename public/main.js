@@ -2,7 +2,6 @@ import * as THREE from "three";
 import { CSS2DRenderer } from "three/examples/jsm/renderers/CSS2DRenderer";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { generateText, light } from "./Utils/Index";
-import AllenBolt from "./Components/AllenBolt";
 import HexBolt from "./Components/HexBolt";
 
 // Create a scene

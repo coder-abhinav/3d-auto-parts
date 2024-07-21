@@ -1,7 +1,7 @@
 import * as THREE from "three";
+import { steelMaterial } from "../Utils/Index";
 import HexHead from "./HexHead";
 import ThreadedBolt from "./ThreadedBolt";
-import { steelMaterial } from "../Utils/Index";
 
 const HexBolt = () => {
   let hexBolt = new THREE.Group();
