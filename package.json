@@ -8,6 +8,7 @@
     "vite": "^5.2.8"
   },
   "scripts": {
-    "start": "vite --port 6969"
+    "start": "vite --port 6969",
+    "build": "vite build"
   }
 }
