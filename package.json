@@ -5,10 +5,11 @@
     "three-bvh-csg": "^0.0.16"
   },
   "devDependencies": {
-    "vite": "^5.2.8"
+    "vite": "^5.3.4"
   },
   "scripts": {
     "start": "vite --port 6969",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "npm run build && firebase deploy --only hosting"
   }
 }
