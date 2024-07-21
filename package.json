@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.163.0",
+    "three-bvh-csg": "^0.0.16"
+  },
+  "devDependencies": {
+    "vite": "^5.2.8"
+  },
+  "scripts": {
+    "start": "vite --port 6969"
+  }
+}
