@@ -83,27 +83,6 @@ scene.add(directionalLight4);
 
 //lighting ends here
 
-// Dimensions starts Here
-
-const flatHeadText = generateText({ x: 4, y: 3, text: "Flat Head : 2cm" });
-scene.add(flatHeadText);
-
-const boltLengthText = generateText({
-  x: 4,
-  y: 2.7,
-  text: "Bolt Length : 10cm",
-});
-scene.add(boltLengthText);
-
-const pitchLengthText = generateText({
-  x: 4,
-  y: 2.4,
-  text: "Pitch Length : 1mm ",
-});
-scene.add(pitchLengthText);
-
-// dimensions end here
-
 // Mouse interaction variables
 let isDragging = false;
 let previousMousePosition = {
